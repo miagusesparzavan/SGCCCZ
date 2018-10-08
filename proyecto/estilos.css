@@ -5,7 +5,7 @@
 	.divuno{
 		width: 100%;
 		heigt: 800px;
-		border: 3px solid red;
+		border: 3px solid BLUE;
 		border-radius: 3px;
 		font-family: 'Oswald', sans-serif;
 		font-family: 'Anton', sans-serif;
@@ -16,4 +16,29 @@
 		border: 5px solid blue;
 		border-radius: 3px;
 	}
+#navlist { width: 100%; padding: 3px 0px;
+border-bottom: 1px solid #778;
+font: bold 14px Verdana, sans-serif; }
 
+#navlist li { list-style: none; display: inline; margin-left:10px;}
+
+#navlist li a { width: 100%; padding: 3px 1em;
+border: 1px solid #778; border-bottom: none;
+background: #DDE; text-decoration: none; }
+
+#navlist li a:link { color: BLUE; }
+#navlist li a:hover {color: #000; background: #AAE; border-color: #227; }
+#navlist li a#current { background: #AAE; }
+
+
+hr{display:none;}
+
+ul.menuVert1 {width: 220px; list-style: none;
+ text-align: center; text-shadow: 2px 2px 4px BLUE; padding:0;}
+
+ul.menuVert1 li {padding: 10px 0px; border: groove blue;
+border-width: 6px 6px 0px 6px; background-color: #F7FE2E;}
+
+ul.menuVert1 li:last-child { border-bottom: groove blue; border-bottom-width: 6px;}
+ul.menuVert1 li a:link, ul.menuVert1 li a:visited { text-decoration: none; color:black;}
+ul.menuVert1 li:hover {background-color: #FFD700;}
