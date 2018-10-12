@@ -31,14 +31,8 @@ background: #DDE; text-decoration: none; }
 #navlist li a#current { background: #AAE; }
 
 
-hr{display:none;}
 
-ul.menuVert1 {width: 220px; list-style: none;
- text-align: center; text-shadow: 2px 2px 4px BLUE; padding:0;}
 
-ul.menuVert1 li {padding: 10px 0px; border: groove blue;
-border-width: 6px 6px 0px 6px; background-color: #F7FE2E;}
 
-ul.menuVert1 li:last-child { border-bottom: groove blue; border-bottom-width: 6px;}
-ul.menuVert1 li a:link, ul.menuVert1 li a:visited { text-decoration: none; color:black;}
-ul.menuVert1 li:hover {background-color: #FFD700;}
+
+
