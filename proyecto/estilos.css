@@ -1,20 +1,27 @@
 	body {
 		font-size: 20px;
+		}
 		
-	}
-	.divuno{
+	.divencabezado{
 		width: 100%;
 		heigt: 800px;
 		border: 3px solid BLUE;
 		border-radius: 3px;
-		font-family: 'Oswald', sans-serif;
-		font-family: 'Anton', sans-serif;
 	}
-	.divdos{
-		width: 100%;
-		heigt: 800px;
+	
+	.divcuerpo{
+		width: auto;
+		height: 800px;
 		border: 5px solid blue;
 		border-radius: 3px;
+	}
+		
+	.divpie{
+		width: 100%;
+		heigt: 800px;
+		border: 3px solid BLUE;
+		border-radius: 3px;
+
 	}
 #navlist { width: 100%; padding: 3px 0px;
 border-bottom: 1px solid #778;
