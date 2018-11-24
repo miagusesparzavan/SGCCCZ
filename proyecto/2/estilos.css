@@ -4,6 +4,23 @@ margin: 0;
 color: #777;
 
 }
+.menu{
+min-height: 8%;
+text-align: right;
+background-color: #064cbf;
+padding-top: 11px;
+}
+.menu li{
+display: inline-block;
+
+}
+.menu li a{
+text-decoration: none;
+padding: 20px 40px;
+color: white;
+}
+
+
 .secone{
 background-image: url('modelo1.jpg');
 min-height: 40%;
